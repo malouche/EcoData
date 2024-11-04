@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import plotly.express as px
 
 # Set page config
 st.set_page_config(
@@ -12,111 +11,103 @@ st.set_page_config(
 # Function to load all datasets
 def load_datasets():
     datasets = {
-        "Beetles Density Study": pd.read_csv("beetles.csv"),
-        "Ant Biomass Analysis": pd.read_csv("ants.csv"),
-        "Rodent Species Analysis": pd.read_csv("bolger.csv"),
-        "Crab Weight Study": pd.read_csv("crabs.csv"),
-        "Forest & Bog Analysis": pd.read_csv("gotelli.csv"),
-        "Green Site Analysis": pd.read_csv("green.csv"),
-        "Biofilm Study": pd.read_csv("keough.csv"),
-        "Humidity Analysis": pd.read_csv("nelson.csv"),
-        "Climate & Vegetation Study": pd.read_csv("paruelo.csv"),
-        "Species Area Relationship": pd.read_csv("peake.csv"),
-        "Mouse pH Study": pd.read_csv("ph.csv"),
-        "Island Ratio Analysis": pd.read_csv("polis.csv"),
-        "Treatment Length Study": pd.read_csv("purves.csv"),
-        "Beetle & Plant Analysis": pd.read_csv("sanchez.csv"),
-        "Wildlife Mortality Study": pd.read_csv("sinclair.csv"),
-        "Population Treatment Study": pd.read_csv("taulman.csv")
+        "Beetles Density Study (density vs survival)": pd.read_csv("beetles.csv", index_col=False),
+        "Ant Biomass Analysis (temporal data)": pd.read_csv("ants.csv", index_col=False),
+        "Rodent Species Analysis (habitat factors)": pd.read_csv("bolger.csv", index_col=False),
+        "Crab Weight Study (morphometric data)": pd.read_csv("crabs.csv", index_col=False),
+        "Forest & Bog Analysis (site comparison)": pd.read_csv("gotelli.csv", index_col=False),
+        "Green Site Analysis (site data)": pd.read_csv("green.csv", index_col=False),
+        "Biofilm Study (experimental data)": pd.read_csv("keough.csv", index_col=False),
+        "Humidity Analysis (environmental data)": pd.read_csv("nelson.csv", index_col=False),
+        "Climate & Vegetation Study (geographical data)": pd.read_csv("paruelo.csv", index_col=False),
+        "Species Area Relationship (ecological data)": pd.read_csv("peake.csv", index_col=False),
+        "Mouse pH Study (physiological data)": pd.read_csv("ph.csv", index_col=False),
+        "Island Ratio Analysis (spatial data)": pd.read_csv("polis.csv", index_col=False),
+        "Treatment Length Study (experimental data)": pd.read_csv("purves.csv", index_col=False),
+        "Beetle & Plant Analysis (community data)": pd.read_csv("sanchez.csv", index_col=False),
+        "Wildlife Mortality Study (survival data)": pd.read_csv("sinclair.csv", index_col=False),
+        "Population Treatment Study (temporal comparison)": pd.read_csv("taulman.csv", index_col=False)
     }
     return datasets
+
+# Dataset descriptions
+dataset_descriptions = {
+    "Beetles Density Study (density vs survival)": "Study examining the relationship between beetle population density and survival rates in controlled environments.",
+    "Ant Biomass Analysis (temporal data)": "Monthly measurements of ant biomass across different time periods, showing seasonal variations in ant populations.",
+    "Rodent Species Analysis (habitat factors)": "Analysis of rodent species presence in relation to habitat characteristics including shrub coverage and distance metrics.",
+    "Crab Weight Study (morphometric data)": "Morphometric study comparing body weight and gill weight relationships in crabs.",
+    "Forest & Bog Analysis (site comparison)": "Comparative study of species richness between forest and bog habitats across different latitudes and elevations.",
+    "Green Site Analysis (site data)": "Site-specific study measuring total mass and burrow counts across different locations.",
+    "Biofilm Study (experimental data)": "Experimental study examining biofilm development under different treatment conditions.",
+    "Humidity Analysis (environmental data)": "Investigation of the relationship between humidity levels and weight loss in biological samples.",
+    "Climate & Vegetation Study (geographical data)": "Large-scale study of climate variables and vegetation patterns across different geographical locations.",
+    "Species Area Relationship (ecological data)": "Study examining the relationship between area size and species diversity/individual counts.",
+    "Mouse pH Study (physiological data)": "Physiological study measuring pH levels in mice across different experimental conditions.",
+    "Island Ratio Analysis (spatial data)": "Analysis of ecological ratios across different islands and their relationship with species presence.",
+    "Treatment Length Study (experimental data)": "Experimental study comparing different treatment effects on specimen length.",
+    "Beetle & Plant Analysis (community data)": "Community ecology study examining relationships between beetles, guano, and plant coverage.",
+    "Wildlife Mortality Study (survival data)": "Analysis of wildlife mortality patterns across different demographic groups and conditions.",
+    "Population Treatment Study (temporal comparison)": "Temporal study comparing population responses to different treatments over multiple years."
+}
 
 # Create tabs
 tab1, tab2 = st.tabs(["Data Analysis", "Contact"])
 
 with tab1:
+    # Main content
+    st.title("Ecological Data Analysis Platform")
+    
     # Sidebar for dataset selection
     st.sidebar.title("Dataset Selection")
     datasets = load_datasets()
-    selected_dataset = st.sidebar.selectbox(
-        "Choose a dataset",
-        list(datasets.keys())
+    
+    # Create radio buttons for dataset selection
+    dataset_name = st.sidebar.radio(
+        "Select a dataset to analyze:",
+        list(datasets.keys()),
+        format_func=lambda x: f"• {x}"
     )
 
-    # Main content
-    st.title("Ecological Data Analysis Platform")
-    st.header(selected_dataset)
-
-    # Display the selected dataset
-    df = datasets[selected_dataset]
-    st.dataframe(df)
-
-    # Show basic statistics
-    st.subheader("Basic Statistics")
-    st.write(df.describe())
-
-    # Suggest analyses based on the dataset
-    st.subheader("Possible Analyses")
-
-    analyses = {
-        "Beetles Density Study": [
-            "Regression analysis between density and survival rate",
-            "ANOVA to compare survival rates across density groups",
-            "Descriptive statistics of survival rates"
-        ],
-        "Ant Biomass Analysis": [
-            "Time series analysis of biomass across months",
-            "Monthly biomass comparison using box plots",
-            "Statistical tests for seasonal effects"
-        ],
-        "Rodent Species Analysis": [
-            "Logistic regression for rodent species presence",
-            "Correlation analysis between variables",
-            "Multiple regression for habitat factors"
-        ],
-        # Add suggestions for other datasets...
-    }
-
-    if selected_dataset in analyses:
-        for analysis in analyses[selected_dataset]:
-            st.write("• " + analysis)
-    
-    # Generate automatic visualization based on data types
-    st.subheader("Quick Visualization")
-    if len(df.columns) >= 2:
-        numeric_cols = df.select_dtypes(include=['float64', 'int64']).columns
-        if len(numeric_cols) >= 2:
-            x_col = st.selectbox("Select X axis", numeric_cols)
-            y_col = st.selectbox("Select Y axis", numeric_cols)
-            fig = px.scatter(df, x=x_col, y=y_col, title=f"{y_col} vs {x_col}")
-            st.plotly_chart(fig)
+    # Display selected dataset
+    if dataset_name:
+        st.header(dataset_name)
+        
+        # Display dataset description
+        st.info(dataset_descriptions[dataset_name])
+        
+        df = datasets[dataset_name]
+        st.write("Variables in the dataset:", ", ".join(df.columns))
+        
+        # Display the dataframe with full width and no index
+        st.dataframe(
+            df.reset_index(drop=True),
+            use_container_width=True,
+            hide_index=True
+        )
 
 with tab2:
     st.title("Contact Information")
     st.write("### Dhafer Malouche")
-    st.write("This application was developed by Dhafer Malouche, a data scientist and ecological data analyst.")
+    st.write("This application was developed by Dr. Dhafer Malouche.")
     
     # Contact information
     st.write("#### Get in Touch")
     col1, col2 = st.columns(2)
     with col1:
         st.markdown("""
-        📧 **Email**: dhafer.malouche@example.com  
-        🌐 **Website**: www.dhafermalouche.com  
+        📧 **Email**: dhafer.malouche@qu.edu.qa  
+        🌐 **Website**: https://dhafermalouche.net  
         """)
     with col2:
         st.markdown("""
-        💼 **LinkedIn**: linkedin.com/in/dhafermalouche  
-        🐦 **Twitter**: @dhafermalouche  
+        💼 **LinkedIn**: linkedin.com/in/dhafer-malouche-b54629b/   
         """)
     
     st.write("### About This App")
     st.write("""
-    This application is designed to facilitate the analysis of ecological datasets. 
-    It provides an interactive interface for exploring various ecological studies 
-    and performing different types of statistical analyses.
+    This application is designed to download datasets for statistical analysis in biology."
     
-    For any questions, suggestions, or collaboration opportunities, 
+    For any questions or suggestions  
     please don't hesitate to reach out through any of the channels above.
     """)
 
@@ -129,6 +120,15 @@ st.markdown("""
     }
     .sidebar .sidebar-content {
         background-color: #f5f5f5;
+    }
+    /* Make the dataframe use full width */
+    .stDataFrame {
+        width: 100%;
+    }
+    /* Style the radio buttons */
+    .stRadio > label {
+        font-size: 14px;
+        margin-left: 10px;
     }
 </style>
 """, unsafe_allow_html=True)
