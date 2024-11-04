@@ -3,7 +3,7 @@ import pandas as pd
 
 # Set page config
 st.set_page_config(
-    page_title="Ecological Data Analysis",
+    page_title="Ecological Research Data Browser",
     page_icon="🌿",
     layout="wide"
 )
@@ -101,12 +101,16 @@ with tab2:
         """)
     
     st.write("### About This App")
-    st.write("""
-    This application is designed to download datasets for statistical analysis in biology.
-    
-    For any questions or suggestions  
-    please don't hesitate to reach out through any of the channels above.
-    """)
+st.write("""
+This application is designed to facilitate accessing datasets for statistical analysis in biology. 
+Most of the data are from the book:
+
+*Biostatistical Design and Analysis Using R: A Practical Guide* by Murray Logan (2010), Wiley-Blackwell. ISBN: 978-1-405-19008-4
+
+This interactive interface allows users to explore various ecological and biological datasets used in the book's examples and exercises.
+
+For any questions or suggestions about this app's functionality, please don't hesitate to reach out through any of the channels above.
+""")
 
 # Add custom CSS
 st.markdown("""
