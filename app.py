@@ -11,22 +11,22 @@ st.set_page_config(
 # Function to load all datasets
 def load_datasets():
     datasets = {
-        "Beetles Density Study (density vs survival)": pd.read_csv("beetles.csv", index_col=False),
-        "Ant Biomass Analysis (temporal data)": pd.read_csv("ants.csv", index_col=False),
-        "Rodent Species Analysis (habitat factors)": pd.read_csv("bolger.csv", index_col=False),
-        "Crab Weight Study (morphometric data)": pd.read_csv("crabs.csv", index_col=False),
-        "Forest & Bog Analysis (site comparison)": pd.read_csv("gotelli.csv", index_col=False),
-        "Green Site Analysis (site data)": pd.read_csv("green.csv", index_col=False),
-        "Biofilm Study (experimental data)": pd.read_csv("keough.csv", index_col=False),
-        "Humidity Analysis (environmental data)": pd.read_csv("nelson.csv", index_col=False),
-        "Climate & Vegetation Study (geographical data)": pd.read_csv("paruelo.csv", index_col=False),
-        "Species Area Relationship (ecological data)": pd.read_csv("peake.csv", index_col=False),
-        "Mouse pH Study (physiological data)": pd.read_csv("ph.csv", index_col=False),
-        "Island Ratio Analysis (spatial data)": pd.read_csv("polis.csv", index_col=False),
-        "Treatment Length Study (experimental data)": pd.read_csv("purves.csv", index_col=False),
-        "Beetle & Plant Analysis (community data)": pd.read_csv("sanchez.csv", index_col=False),
-        "Wildlife Mortality Study (survival data)": pd.read_csv("sinclair.csv", index_col=False),
-        "Population Treatment Study (temporal comparison)": pd.read_csv("taulman.csv", index_col=False)
+        "Beetles Density Study (density vs survival)": pd.read_csv("data/beetles.csv", index_col=False),
+        "Ant Biomass Analysis (temporal data)": pd.read_csv("data/ants.csv", index_col=False),
+        "Rodent Species Analysis (habitat factors)": pd.read_csv("data/bolger.csv", index_col=False),
+        "Crab Weight Study (morphometric data)": pd.read_csv("data/crabs.csv", index_col=False),
+        "Forest & Bog Analysis (site comparison)": pd.read_csv("data/gotelli.csv", index_col=False),
+        "Green Site Analysis (site data)": pd.read_csv("data/green.csv", index_col=False),
+        "Biofilm Study (experimental data)": pd.read_csv("data/keough.csv", index_col=False),
+        "Humidity Analysis (environmental data)": pd.read_csv("data/nelson.csv", index_col=False),
+        "Climate & Vegetation Study (geographical data)": pd.read_csv("data/paruelo.csv", index_col=False),
+        "Species Area Relationship (ecological data)": pd.read_csv("data/peake.csv", index_col=False),
+        "Mouse pH Study (physiological data)": pd.read_csv("data/ph.csv", index_col=False),
+        "Island Ratio Analysis (spatial data)": pd.read_csv("data/polis.csv", index_col=False),
+        "Treatment Length Study (experimental data)": pd.read_csv("data/purves.csv", index_col=False),
+        "Beetle & Plant Analysis (community data)": pd.read_csv("data/sanchez.csv", index_col=False),
+        "Wildlife Mortality Study (survival data)": pd.read_csv("data/sinclair.csv", index_col=False),
+        "Population Treatment Study (temporal comparison)": pd.read_csv("data/taulman.csv", index_col=False)
     }
     return datasets
 
