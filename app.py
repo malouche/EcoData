@@ -55,7 +55,7 @@ tab1, tab2 = st.tabs(["Data Analysis", "Contact"])
 
 with tab1:
     # Main content
-    st.title("Ecological Data Analysis Platform")
+    st.title("Ecological Research Data Browser")
     
     # Sidebar for dataset selection
     st.sidebar.title("Dataset Selection")
