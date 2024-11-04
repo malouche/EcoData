@@ -88,7 +88,7 @@ with tab1:
 with tab2:
     st.title("Contact Information")
     st.write("### Dhafer Malouche")
-    st.write("This application was developed by Dr. Dhafer Malouche.")
+    st.write("This application was developed by  Dhafer Malouche.")
     
     # Contact information
     st.write("#### Get in Touch")
@@ -97,15 +97,12 @@ with tab2:
         st.markdown("""
         📧 **Email**: dhafer.malouche@qu.edu.qa  
         🌐 **Website**: https://dhafermalouche.net  
-        """)
-    with col2:
-        st.markdown("""
-        💼 **LinkedIn**: linkedin.com/in/dhafer-malouche-b54629b/   
+        💼 **LinkedIn**: https://linkedin.com/in/dhafer-malouche-b54629b/
         """)
     
     st.write("### About This App")
     st.write("""
-    This application is designed to download datasets for statistical analysis in biology."
+    This application is designed to download datasets for statistical analysis in biology.
     
     For any questions or suggestions  
     please don't hesitate to reach out through any of the channels above.
