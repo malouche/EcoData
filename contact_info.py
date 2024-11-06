@@ -2,11 +2,7 @@ import streamlit as st
 
 def show_contact_info():
     st.title("Contact Information")
-    st.write("### Dhafer Malouche")
-    st.write("This application was developed by Dhafer Malouche.")
     
-    # Contact information
-    st.write("#### Get in Touch")
     col1, col2 = st.columns(2)
     with col1:
         st.markdown("""
