@@ -1,0 +1,200 @@
+"Area","Flood occurrence (WRI)","Rural population with access to safe drinking-water (JMP)","Total population with access to safe drinking-water (JMP)","Urban population with access to safe drinking-water (JMP)","% of area equipped for irrigation salinized","Area salinized by irrigation","Population affected by water related disease","Area waterlogged by irrigation"
+"Afghanistan",3.7,47,55.3,78.2,NA,NA,NA,NA
+"Albania",2.7,95.2,95.1,94.9,0,0,NA,NA
+"Algeria",2.8,81.8,83.6,84.3,NA,NA,NA,NA
+"Andorra",3.3,100,100,100,NA,NA,NA,NA
+"Angola",1.7,28.2,49,75.4,NA,NA,NA,NA
+"Antigua and Barbuda",3.6,97.9,97.9,97.9,NA,NA,NA,NA
+"Argentina",2.5,100,99.1,99,53.293613773,584,5607,NA
+"Armenia",3.3,100,100,100,13.10012837,20.41,1.644,18.72
+"Australia",2.7,100,100,100,10.283305054,200,NA,NA
+"Austria",3.3,100,100,100,NA,NA,NA,NA
+"Azerbaijan",3,77.8,87,94.7,18.191123981,270.12,NA,NA
+"Bahamas",NA,98.4,98.4,98.4,NA,NA,NA,NA
+"Bahrain",0,100,100,100,28.55227882,1.065,NA,1.86
+"Bangladesh",4.9,87,86.9,86.5,1.98019802,100,NA,770
+"Barbados",3.6,99.7,99.7,99.7,NA,NA,NA,NA
+"Belarus",2.6,99.1,99.7,99.9,NA,NA,NA,NA
+"Belgium",2.8,100,100,100,NA,NA,NA,NA
+"Belize",2.6,100,99.5,98.9,NA,NA,NA,NA
+"Benin",3.6,72.1,77.9,85.2,NA,NA,NA,NA
+"Bhutan",4.7,100,100,100,NA,NA,NA,NA
+"Bolivia (Plurinational State of)",3.1,75.6,90,96.7,4.045734713,21.91,NA,NA
+"Bosnia and Herzegovina",3.6,100,99.9,99.7,NA,NA,NA,NA
+"Botswana",2.1,92.3,96.2,99.2,NA,NA,NA,NA
+"Brazil",3.1,87,98.1,100,0.270318976,15,NA,NA
+"Brunei Darussalam",2.3,NA,NA,NA,NA,NA,NA,NA
+"Bulgaria",3.2,99,99.4,99.6,NA,NA,NA,NA
+"Burkina Faso",3.3,75.8,82.3,97.5,NA,NA,6172,NA
+"Burundi",3.3,73.8,75.9,91.1,NA,NA,NA,NA
+"Cabo Verde",NA,87.3,91.7,94,26.478142293,1,NA,0
+"Cambodia",3.9,69.1,75.5,100,NA,NA,507,NA
+"Cameroon",2.2,52.7,75.6,94.8,NA,NA,NA,NA
+"Canada",1.9,99,99.8,100,NA,NA,NA,NA
+"Central African Republic",2.3,54.4,68.5,89.6,NA,NA,NA,NA
+"Chad",3,44.8,50.8,71.8,NA,NA,NA,NA
+"Chile",2.5,93.3,99,99.7,3.030961816,33.6,NA,NA
+"China",3.5,93,95.5,97.5,8.852246753,6700,NA,NA
+"Colombia",3.7,73.8,91.4,96.8,96.209043009,300,7.089,NA
+"Comoros",1.6,89.1,90.1,92.6,NA,NA,NA,NA
+"Congo",1.7,40,76.5,95.8,NA,NA,175.2,NA
+"Cook Islands",NA,99.9,99.9,99.9,NA,NA,NA,NA
+"Costa Rica",3.1,91.9,97.8,99.6,NA,NA,315.9,NA
+"Croatia",3,99.7,99.6,99.6,NA,NA,NA,NA
+"Cuba",3,89.8,94.9,96.4,62.588993726,400,1033,NA
+"Cyprus",0,100,100,100,NA,NA,NA,NA
+"Czechia",3.2,100,100,100,NA,NA,NA,NA
+"Côte d'Ivoire",2.3,68.8,81.9,93.1,NA,NA,1423,NA
+"Democratic People's Republic of Korea",3,99.4,99.7,99.9,NA,NA,NA,NA
+"Democratic Republic of the Congo",1.9,31.2,52.4,81.1,NA,NA,NA,2
+"Denmark",0,100,100,100,NA,NA,NA,NA
+"Djibouti",2.9,64.7,90,97.4,NA,NA,NA,NA
+"Dominica",3.6,91.8,94.4,95.7,NA,NA,NA,NA
+"Dominican Republic",3.7,81.9,84.7,85.4,16.233028056,50.33862,NA,NA
+"Ecuador",3.2,75.5,86.9,93.4,NA,NA,8.57,NA
+"Egypt",2.5,99,99.4,100,23.541721161,900,NA,NA
+"El Salvador",3.8,86.5,93.8,97.5,NA,NA,12,NA
+"Equatorial Guinea",0,31.5,47.9,72.5,NA,NA,NA,NA
+"Eritrea",2.5,53.3,57.8,73.2,NA,NA,NA,NA
+"Estonia",1.1,99,99.6,100,NA,NA,NA,NA
+"Eswatini",3.1,68.9,74.1,93.6,NA,NA,2.926,7.46
+"Ethiopia",3.2,48.6,57.3,93.1,NA,NA,NA,NA
+"Fiji",NA,91.2,95.7,99.5,NA,NA,NA,NA
+"Finland",0.2,100,100,100,NA,NA,NA,NA
+"France",2.5,100,100,100,NA,NA,NA,NA
+"Gabon",0.7,66.7,93.2,97.2,NA,NA,NA,NA
+"Gambia",1.5,84.4,90.2,94.2,NA,NA,NA,0.2077
+"Georgia",3.6,100,100,100,82.199710564,113.6,NA,NA
+"Germany",2.9,100,100,100,NA,NA,NA,NA
+"Ghana",3,84,88.7,92.6,4.789644013,1.48,NA,NA
+"Greece",2.4,100,100,100,NA,NA,NA,NA
+"Grenada",NA,95.3,96.6,99,NA,NA,NA,NA
+"Guatemala",3.5,86.8,92.8,98.4,1.481481481,5,1880,NA
+"Guinea",1.1,67.4,76.8,92.7,NA,NA,NA,NA
+"Guinea-Bissau",1,60.3,79.3,98.8,NA,NA,NA,NA
+"Guyana",2.4,98.3,98.3,98.2,NA,NA,NA,NA
+"Haiti",3.9,47.6,57.7,64.9,NA,NA,NA,NA
+"Holy See",2.9,NA,NA,NA,NA,NA,NA,NA
+"Honduras",3.6,83.8,91.2,97.4,NA,NA,NA,NA
+"Hungary",3.5,100,100,100,NA,NA,NA,NA
+"Iceland",0.1,100,100,100,NA,NA,NA,NA
+"India",3.9,92.6,94.1,97.1,4.6875,3300,44000,2460
+"Indonesia",3.1,79.5,87.4,94.2,5.950609938,400,5.111,2150
+"Iran (Islamic Republic of)",3.2,92.1,96.2,97.7,24.137931034,2100,NA,1000
+"Iraq",2.4,70.1,86.6,93.8,75.70212766,2668.5,NA,NA
+"Ireland",2.2,97.8,97.9,97.9,NA,NA,NA,NA
+"Israel",2.9,100,100,100,12.364444444,27.82,NA,NA
+"Italy",2.6,100,100,100,NA,NA,NA,NA
+"Jamaica",3.5,89.4,93.8,97.5,NA,NA,NA,NA
+"Japan",3,100,100,100,NA,NA,NA,NA
+"Jordan",3,92.3,96.9,97.8,2.540942994,2.277,NA,1.5
+"Kazakhstan",1.7,85.6,92.9,99.4,17.134092901,391,3.22,22.9
+"Kenya",3.8,56.8,63.2,81.6,14.972301243,30,NA,NA
+"Kiribati",NA,50.6,66.9,87.3,NA,NA,NA,NA
+"Kuwait",0.6,99,99,99,24.028268551,4.08,NA,NA
+"Kyrgyzstan",2.1,86.2,90,96.7,4.846289407,49.5,122.8,35.4
+"Lao People's Democratic Republic",3.9,69.4,75.7,85.6,NA,NA,NA,NA
+"Latvia",1.8,98.3,99.3,99.8,NA,NA,NA,NA
+"Lebanon",2.8,99,99,99,1.111111111,1,NA,3
+"Lesotho",3.3,77,81.8,94.6,NA,NA,NA,NA
+"Liberia",1.9,62.6,75.6,88.6,NA,NA,NA,NA
+"Libya",0,68.3,71.2,72.1,47.5,190,NA,190
+"Liechtenstein",3.3,NA,NA,NA,NA,NA,NA,NA
+"Lithuania",2.4,90.4,96.6,99.7,NA,NA,NA,NA
+"Luxembourg",3.1,100,100,100,NA,0,NA,NA
+"Madagascar",2.6,35.3,51.5,81.6,NA,NA,NA,NA
+"Malawi",3.3,89.1,90.2,95.7,NA,NA,NA,NA
+"Malaysia",3.1,93,98.2,100,NA,NA,7,NA
+"Maldives",NA,97.9,98.6,99.5,NA,NA,NA,NA
+"Mali",2.6,64.1,77,96.5,NA,NA,2291,NA
+"Malta",0,100,100,100,0,0,NA,0
+"Marshall Islands",NA,97.6,94.6,93.5,NA,NA,NA,NA
+"Mauritania",2.5,57.1,57.9,58.4,NA,NA,111.6,19.3
+"Mauritius",NA,99.8,99.9,99.9,0,0,0,0
+"Mexico",2.9,92.1,96.1,97.2,5.260748082,384.2,NA,NA
+"Micronesia (Federated States of)",NA,87.4,89,94.8,NA,NA,NA,NA
+"Monaco",2.8,NA,100,100,NA,NA,NA,NA
+"Mongolia",1.3,59.2,64.4,66.4,NA,NA,NA,NA
+"Montenegro",3.5,99.2,99.7,100,NA,NA,NA,NA
+"Morocco",2.9,65.3,85.4,98.7,9.867122747,150,NA,NA
+"Mozambique",3,37,51.1,80.6,1.693480102,2,NA,NA
+"Myanmar",3.2,74.4,80.6,92.7,NA,NA,NA,NA
+"Namibia",2.1,84.6,91,98.2,17.166248515,1.3,NA,2
+"Nauru",NA,NA,96.5,96.5,NA,NA,NA,NA
+"Nepal",4.5,91.8,91.6,90.9,NA,NA,NA,NA
+"Netherlands (Kingdom of the)",2.5,100,100,100,NA,NA,NA,NA
+"New Zealand",1.7,100,100,100,NA,NA,NA,NA
+"Nicaragua",3.6,69.4,87,99.3,NA,NA,214,NA
+"Niger",3.4,48.6,58.2,100,0.344522099,0.35,3143,NA
+"Nigeria",3.1,57.3,68.5,80.8,30.197795561,100,NA,NA
+"Niue",NA,98.6,98.5,98.4,NA,NA,NA,NA
+"North Macedonia",3.3,98.9,99.4,99.8,NA,NA,NA,NA
+"Norway",1.3,100,100,100,NA,NA,NA,NA
+"Oman",1.9,86.1,93.4,95.5,NA,NA,NA,NA
+"Pakistan",3.9,89.9,91.4,93.9,35.032516258,7003,NA,7072
+"Palau",NA,86,95.3,97,NA,NA,NA,NA
+"Palestine",3,81.5,58.4,50.7,NA,NA,NA,NA
+"Panama",2.8,88.6,94.7,97.7,NA,NA,313.7,NA
+"Papua New Guinea",1.6,32.8,40,88,NA,NA,NA,NA
+"Paraguay",3.3,94.9,98,100,NA,NA,NA,NA
+"Peru",2.8,69.2,86.7,91.4,11.628943665,300,600.2,NA
+"Philippines",4,90.3,91.8,93.7,14.688654433,300,866.4,NA
+"Poland",2.7,96.9,98.3,99.3,NA,NA,NA,NA
+"Portugal",2.4,100,100,100,NA,NA,NA,NA
+"Puerto Rico",NA,93.6,93.6,93.6,NA,NA,NA,NA
+"Qatar",0,100,100,100,NA,NA,NA,NA
+"Republic of Korea",3.5,87.9,97.6,99.7,NA,NA,NA,NA
+"Republic of Moldova",3.8,81.4,88.4,96.9,0,0,NA,NA
+"Romania",3.7,100,100,100,12.616919415,400,NA,900
+"Russian Federation",2,91.2,96.9,98.9,NA,NA,NA,NA
+"Rwanda",3.6,71.9,76.1,86.6,NA,NA,NA,NA
+"Saint Kitts and Nevis",NA,98.3,98.3,98.3,NA,NA,NA,NA
+"Saint Lucia",3.6,95.6,96.3,99.5,NA,NA,NA,NA
+"Saint Vincent and the Grenadines",3.6,95.1,95.1,95.1,NA,NA,NA,NA
+"Samoa",NA,99.3,99,97.5,NA,NA,NA,NA
+"San Marino",2.3,NA,NA,NA,NA,NA,NA,NA
+"Sao Tome and Principe",NA,93.6,97.1,98.9,NA,NA,NA,NA
+"Saudi Arabia",1.2,97,97,97,NA,NA,NA,15
+"Senegal",2.5,67.3,78.5,92.9,NA,NA,NA,NA
+"Serbia",3.5,98.9,99.2,99.4,NA,NA,NA,NA
+"Seychelles",NA,95.7,95.7,95.7,0,0,NA,0
+"Sierra Leone",1.6,47.8,62.6,84.9,NA,NA,NA,NA
+"Singapore",2.9,NA,100,100,NA,NA,NA,NA
+"Slovakia",3.8,100,100,100,NA,NA,NA,NA
+"Slovenia",3.5,99.4,99.5,99.7,NA,NA,NA,NA
+"Solomon Islands",NA,77.2,80.8,93.2,NA,NA,NA,NA
+"Somalia",3.8,8.8,31.7,69.6,NA,NA,NA,NA
+"South Africa",2.8,81.4,93.2,99.6,4.464772056,100,NA,NA
+"South Sudan",2.5,56.9,58.7,66.7,NA,NA,NA,NA
+"Spain",2.7,100,100,100,NA,NA,NA,NA
+"Sri Lanka",3.7,95,95.6,98.5,NA,NA,120,NA
+"Sudan",3.3,50.2,55.5,66,NA,NA,NA,NA
+"Suriname",1.4,88.4,94.8,98.1,NA,NA,NA,NA
+"Sweden",0.4,100,100,100,NA,NA,NA,NA
+"Switzerland",3.2,100,100,100,0,0,NA,NA
+"Syrian Arab Republic",2.7,87.2,90.1,92.3,4.474272931,60,NA,NA
+"Tajikistan",3.7,66.7,73.8,93.1,3.130305889,23.23,NA,25.74
+"Thailand",3.7,98,97.8,97.6,6.235385814,400,960,NA
+"Timor-Leste",2.2,60.5,71.9,95.2,NA,NA,NA,NA
+"Togo",3.1,44.2,63.1,91.4,NA,NA,NA,NA
+"Tokelau",NA,100,100,NA,NA,NA,NA,NA
+"Tonga",NA,99.6,99.6,99.7,NA,NA,NA,NA
+"Trinidad and Tobago",2.2,95.1,95.1,95.1,NA,NA,NA,NA
+"Tunisia",2.6,93.2,97.7,100,45.146726862,200,NA,90
+"Turkmenistan",1.8,34.6,60.4,89.1,68.006027122,1354,12.29,756.5
+"Tuvalu",NA,97,97.7,98.3,NA,NA,NA,NA
+"Türkiye",2.6,100,100,100,0.434617414,8.236,NA,NA
+"Uganda",3.6,75.8,79,95.5,NA,NA,NA,NA
+"Ukraine",2.4,97.8,96.2,95.5,NA,NA,NA,NA
+"United Arab Emirates",1.2,100,99.6,99.6,NA,NA,NA,NA
+"United Kingdom of Great Britain and Northern Ireland",3.4,100,100,100,NA,NA,NA,NA
+"United Republic of Tanzania",3.1,45.5,55.6,77.2,13.755158184,50,NA,NA
+"United States of America",3.1,98.2,99.2,99.4,15.725625281,4200,NA,NA
+"Uruguay",3,93.9,99.7,100,NA,NA,NA,NA
+"Uzbekistan",2.7,80.9,87.3,98.5,27.293844367,1175,271.8,NA
+"Vanuatu",NA,92.9,94.5,98.9,NA,NA,NA,NA
+"Venezuela (Bolivarian Republic of)",2.7,77.9,93.1,95,NA,NA,22.06,NA
+"Viet Nam",3.8,96.9,97.6,99.1,6.542932542,300,177.6,NA
+"Yemen",2.9,46.5,54.9,72,NA,NA,NA,NA
+"Zambia",2.5,51.3,65.4,85.6,NA,NA,NA,NA
+"Zimbabwe",2.8,67.3,76.9,97,NA,NA,NA,NA
